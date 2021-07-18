@@ -1,0 +1,24 @@
+@media only screen and (max-width: 768px) {
+	html {
+		font-size: 90%;
+	}
+	nav ul li a {
+		font-size: 50%;
+	}
+	/* Header */
+
+	/* Penutup navigasi */
+}
+
+@media screen and (max-width: 578px) {
+	nav ul {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	html {
+		font-size: 70%;
+	}
+}
+/* border: 1px solid black; */
