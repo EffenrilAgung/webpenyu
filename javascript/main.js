@@ -14,7 +14,6 @@ function removeClassActive() {
 
 var burgerMenu = document.querySelector('.burger-menu')
 var nav = document.querySelector('nav')
-console.log(nav)
 burgerMenu.addEventListener('click', () => {
     burgerMenu.classList.toggle('rotate')
     if (burgerMenu == document.getElementsByClassName('rotate')[0]) {
