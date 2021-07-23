@@ -30,33 +30,10 @@ function removeClassStinky() {
 }
 
 // Smooth scroll
-
-// window.addEventListener('scroll', function () {
-//     const scrollUp = window.pageYOffset
-
-//     console.log(stinky.scrollTop += 1000)
-// })
-
-var navigasi = document.querySelectorAll('li')
+var navigasi = document.querySelectorAll('.sx')
 var link = document.querySelectorAll('a')
 var artikel = document.querySelectorAll('article')
 
 window.addEventListener('scroll', function () {
-    nav.classList.toggle('scrolller', window.scrollY >= 901)
-    nav.classList.toggle('scrolllerMobile', window.scrollY >= 790)
-
+    nav.classList.toggle('scrolller', window.scrollY > 0)
 })
-navigasi.forEach((i) => {
-    i.addEventListener('click', function () {
-        x(window.scrollY - 800)
-    })
-})
-function x(value) {
-    artikel.forEach((i) => {
-        i.addEventListener('scroll', () => {
-            window.scrollY - 600
-        })
-    })
-    return value
-}
-console.log(x)

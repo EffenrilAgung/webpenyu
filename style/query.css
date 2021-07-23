@@ -93,8 +93,18 @@
 		flex-basis: 45%;
 		height: 38vh;
 	}
-
 	/* Penutup */
+	.container-box {
+		width: 100%;
+		flex-direction: column;
+	}
+	.profile {
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	.footer-artikel {
+		font-size: 60%;
+	}
 }
 @media only screen and (max-width: 499px) {
 	.box-prasyarat {
@@ -135,5 +145,12 @@
 	}
 	.keterangan p {
 		font-size: 100%;
+	}
+	.footer-artikel {
+		font-size: 50%;
+	}
+	.main-footer img {
+		width: 5%;
+		vertical-align: middle;
 	}
 }
